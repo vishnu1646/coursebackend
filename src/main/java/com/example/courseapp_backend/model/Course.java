@@ -9,7 +9,7 @@ import jakarta.persistence.Table;
 @Table(name="courseapp")
 public class Course {
     @Id
-    @GeneratedValue
+    @GeneratedValue()
     private int Id;
     private String title;
     private String descrip;
